@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="28" viewBox="0 0 102 28" fill="none" role="img" aria-label="Views 62">
+  <style>
+    .bg { fill: #F7F6F2; stroke: #C8C7C2; }
+    .label { fill: #202326; font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Consolas, monospace; font-size: 11.5px; font-weight: 500; letter-spacing: 0.02em; }
+    .accent { fill: #9A773F; font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Consolas, monospace; font-size: 11.5px; font-weight: 600; }
+  </style>
+  <rect class="bg" x="0.5" y="0.5" width="101" height="27" rx="5" stroke-width="1"/>
+  <text x="18" y="18" class="label">Views</text>
+  <text x="76" y="18" class="accent">62</text>
+</svg>

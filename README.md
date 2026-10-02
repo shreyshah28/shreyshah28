@@ -11,15 +11,34 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shrey-shah-60351b376">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./badge_linkedin_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./badge_linkedin_light.svg">
+      <img src="./badge_linkedin_dark.svg" alt="LinkedIn →">
+    </picture>
   </a>
+  &nbsp;
   <a href="mailto:shreyshah222999@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./badge_email_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./badge_email_light.svg">
+      <img src="./badge_email_dark.svg" alt="Email →">
+    </picture>
   </a>
+  &nbsp;
   <a href="https://github.com/shreyshah28">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./badge_github_dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./badge_github_light.svg">
+      <img src="./badge_github_dark.svg" alt="GitHub →">
+    </picture>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=shreyshah28&label=Profile%20Views&color=0284c7&style=for-the-badge" alt="Profile Views">
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./badge_views_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./badge_views_light.svg">
+    <img src="./badge_views_dark.svg" alt="Views 62">
+  </picture>
 </p>
 
 </div>
