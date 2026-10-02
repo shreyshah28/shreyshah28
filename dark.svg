@@ -1,0 +1,342 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrey Shah - AI/ML Developer &amp; Full-Stack Engineer Profile Banner">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#091122"/>
+      <stop offset="100%" stop-color="#040817"/>
+    </linearGradient>
+
+    <!-- Outer Frame Border Gradient -->
+    <linearGradient id="outerBorderGrad" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#818CF8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Panel Gradients -->
+    <linearGradient id="leftPanelGrad" x1="36" y1="36" x2="446" y2="574" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1325" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#080E1C" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="rightPanelGrad" x1="466" y1="36" x2="1144" y2="574" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D162B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#080F1E" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="innerBoxGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111C33" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0B1222" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Subtle Radial Glow in Center -->
+    <radialGradient id="centerGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', Menlo, Monaco, Consolas, monospace;
+    }
+    .font-sans {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .text-title {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .text-code {
+      font-size: 11.5px;
+      letter-spacing: 0.01em;
+    }
+    .text-sub {
+      font-size: 10.5px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <!-- Background Base Canvas -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#centerGlow)"/>
+
+  <!-- Outer Frame Subtle Border -->
+  <rect x="1" y="1" width="1178" height="608" rx="19" stroke="url(#outerBorderGrad)" stroke-width="1.5" fill="none"/>
+
+  <!-- ==================== LEFT COLUMN: VISUAL IDENTITY & TELEMETRY ==================== -->
+  <g id="left-column">
+    <!-- Left Column Card Container -->
+    <rect x="36" y="36" width="410" height="538" rx="14" fill="url(#leftPanelGrad)" stroke="#1E293B" stroke-width="1.2"/>
+
+    <!-- Left Header Bar -->
+    <rect x="36" y="36" width="410" height="42" rx="14" fill="#0E1729"/>
+    <rect x="36" y="64" width="410" height="14" fill="#0E1729"/>
+    <line x1="36" y1="78" x2="446" y2="78" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Terminal Window Controls -->
+    <circle cx="58" cy="57" r="5" fill="#EF4444"/>
+    <circle cx="74" cy="57" r="5" fill="#F59E0B"/>
+    <circle cx="90" cy="57" r="5" fill="#10B981"/>
+
+    <!-- Left Header Title -->
+    <text x="241" y="62" fill="#94A3B8" class="font-mono text-code" text-anchor="middle" font-weight="600">shreyshah28@terminal</text>
+
+    <!-- Visual Identity Monogram & Matrix Box -->
+    <rect x="54" y="94" width="374" height="204" rx="10" fill="url(#innerBoxGrad)" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Grid Wireframe / Circuit Accent Background -->
+    <g opacity="0.18" stroke="#38BDF8" stroke-width="0.8">
+      <line x1="54" y1="130" x2="428" y2="130" stroke-dasharray="3 3"/>
+      <line x1="54" y1="166" x2="428" y2="166" stroke-dasharray="3 3"/>
+      <line x1="54" y1="202" x2="428" y2="202" stroke-dasharray="3 3"/>
+      <line x1="54" y1="238" x2="428" y2="238" stroke-dasharray="3 3"/>
+      <line x1="116" y1="94" x2="116" y2="298" stroke-dasharray="3 3"/>
+      <line x1="178" y1="94" x2="178" y2="298" stroke-dasharray="3 3"/>
+      <line x1="241" y1="94" x2="241" y2="298" stroke-dasharray="3 3"/>
+      <line x1="304" y1="94" x2="304" y2="298" stroke-dasharray="3 3"/>
+      <line x1="366" y1="94" x2="366" y2="298" stroke-dasharray="3 3"/>
+    </g>
+
+    <!-- Neural Monogram Shield -->
+    <g transform="translate(196, 114)">
+      <!-- Hexagonal / Shield Frame -->
+      <polygon points="45,0 90,26 90,78 45,104 0,78 0,26" fill="#0A1326" stroke="#38BDF8" stroke-width="1.8"/>
+      
+      <!-- Internal Neural Mesh Nodes -->
+      <line x1="45" y1="18" x2="22" y2="52" stroke="#818CF8" stroke-width="1.4" opacity="0.7"/>
+      <line x1="45" y1="18" x2="68" y2="52" stroke="#818CF8" stroke-width="1.4" opacity="0.7"/>
+      <line x1="22" y1="52" x2="45" y2="86" stroke="#38BDF8" stroke-width="1.4" opacity="0.7"/>
+      <line x1="68" y1="52" x2="45" y2="86" stroke="#38BDF8" stroke-width="1.4" opacity="0.7"/>
+      <line x1="22" y1="52" x2="68" y2="52" stroke="#22D3EE" stroke-width="1.4" stroke-dasharray="2 2" opacity="0.8"/>
+      
+      <!-- Nodes -->
+      <circle cx="45" cy="18" r="4.5" fill="#38BDF8"/>
+      <circle cx="22" cy="52" r="4" fill="#818CF8"/>
+      <circle cx="68" cy="52" r="4" fill="#818CF8"/>
+      <circle cx="45" cy="86" r="4.5" fill="#10B981"/>
+
+      <!-- Center Pulsing Core -->
+      <circle cx="45" cy="52" r="6" fill="#0284C7">
+        <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="45" cy="52" r="3" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Monogram Identity Title & Subtitle (Clean & Spacious) -->
+    <text x="241" y="250" fill="#F8FAFC" class="font-sans text-title" text-anchor="middle">SHREY SHAH</text>
+    <text x="241" y="272" fill="#38BDF8" class="font-mono text-sub" text-anchor="middle" font-weight="600">AI/ML &amp; FULL-STACK DEVELOPER</text>
+
+    <!-- Telemetry & Specs Box -->
+    <rect x="54" y="314" width="374" height="158" rx="10" fill="url(#innerBoxGrad)" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Spec Header -->
+    <rect x="54" y="314" width="374" height="28" rx="10" fill="#0E1729"/>
+    <rect x="54" y="332" width="374" height="10" fill="#0E1729"/>
+    <line x1="54" y1="342" x2="428" y2="342" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Status Dot & Title -->
+    <circle cx="70" cy="328" r="3.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="82" y="332" fill="#E2E8F0" class="font-mono text-sub" font-weight="700">DEVELOPER TELEMETRY</text>
+    <text x="414" y="332" fill="#10B981" class="font-mono" font-size="9.5px" font-weight="700" text-anchor="end">[ ONLINE ]</text>
+
+    <!-- Spec Content Lines (4 Clean, De-cluttered Lines) -->
+    <g class="font-mono text-code">
+      <!-- Line 1: User -->
+      <text x="70" y="370" fill="#64748B">USER</text>
+      <text x="145" y="370" fill="#F8FAFC" font-weight="600">shreyshah28</text>
+
+      <!-- Line 2: Degree -->
+      <text x="70" y="396" fill="#64748B">DEGREE</text>
+      <text x="145" y="396" fill="#F8FAFC">B.E. in CSE (Artificial Intelligence)</text>
+
+      <!-- Line 3: Campus -->
+      <text x="70" y="422" fill="#64748B">CAMPUS</text>
+      <text x="145" y="422" fill="#CBD5E1">LJ University, Ahmedabad</text>
+
+      <!-- Line 4: Location -->
+      <text x="70" y="448" fill="#64748B">LOCATION</text>
+      <text x="145" y="448" fill="#CBD5E1">Ahmedabad, Gujarat, India</text>
+    </g>
+
+    <!-- Bottom Feature Tags (Pills) -->
+    <g transform="translate(54, 494)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="116" height="28" rx="6" fill="#0C172D" stroke="#1E293B" stroke-width="1"/>
+      <text x="58" y="18" fill="#38BDF8" class="font-mono" font-size="10px" font-weight="600" text-anchor="middle">ML Pipelines</text>
+
+      <!-- Pill 2 -->
+      <rect x="126" y="0" width="126" height="28" rx="6" fill="#0C172D" stroke="#1E293B" stroke-width="1"/>
+      <text x="189" y="18" fill="#818CF8" class="font-mono" font-size="10px" font-weight="600" text-anchor="middle">Cloud Telemetry</text>
+
+      <!-- Pill 3 -->
+      <rect x="262" y="0" width="112" height="28" rx="6" fill="#0C172D" stroke="#1E293B" stroke-width="1"/>
+      <text x="318" y="18" fill="#10B981" class="font-mono" font-size="10px" font-weight="600" text-anchor="middle">Full-Stack Web</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: SYSTEM.INFO TERMINAL ==================== -->
+  <g id="right-column">
+    <!-- Right Column Card Container -->
+    <rect x="466" y="36" width="678" height="538" rx="14" fill="url(#rightPanelGrad)" stroke="#334155" stroke-width="1.2"/>
+
+    <!-- Right Header Bar -->
+    <rect x="466" y="36" width="678" height="42" rx="14" fill="#0F1B33"/>
+    <rect x="466" y="64" width="678" height="14" fill="#0F1B33"/>
+    <line x1="466" y1="78" x2="1144" y2="78" stroke="#334155" stroke-width="1"/>
+
+    <!-- Terminal Window Controls -->
+    <circle cx="488" cy="57" r="5" fill="#EF4444"/>
+    <circle cx="504" cy="57" r="5" fill="#F59E0B"/>
+    <circle cx="520" cy="57" r="5" fill="#10B981"/>
+
+    <!-- Right Header Title & Badge -->
+    <text x="538" y="62" fill="#E2E8F0" class="font-mono text-code" font-weight="700">SYSTEM.INFO — shreyshah28</text>
+    
+    <!-- Status Pill (ONLINE) -->
+    <rect x="1046" y="47" width="80" height="20" rx="4" fill="#0B201F" stroke="#059669" stroke-width="0.8"/>
+    <circle cx="1058" cy="57" r="3" fill="#10B981"/>
+    <text x="1068" y="61" fill="#34D399" class="font-mono" font-size="10px" font-weight="700">ONLINE</text>
+
+    <!-- Terminal Shell Command Prompt Line -->
+    <g class="font-mono text-code" transform="translate(488, 106)">
+      <text x="0" y="0" fill="#38BDF8" font-weight="700">shreyshah28@github</text>
+      <text x="144" y="0" fill="#94A3B8">:</text>
+      <text x="154" y="0" fill="#818CF8">~</text>
+      <text x="164" y="0" fill="#94A3B8">$</text>
+      <text x="178" y="0" fill="#F8FAFC">./profile.sh --inspect</text>
+    </g>
+
+    <!-- Thin Divider -->
+    <line x1="488" y1="124" x2="1122" y2="124" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- ================= SECTION 1: IDENTITY & ACADEMIC CORE ================= -->
+    <g class="font-mono text-code" transform="translate(488, 150)">
+      <!-- Line 1: NAME -->
+      <text x="0" y="0" fill="#64748B" font-weight="600">&gt; NAME       </text>
+      <text x="105" y="0" fill="#F8FAFC" font-weight="700">Shrey Shah</text>
+
+      <!-- Line 2: ROLE -->
+      <text x="0" y="26" fill="#64748B" font-weight="600">&gt; ROLE       </text>
+      <text x="105" y="26" fill="#38BDF8" font-weight="700">AI/ML Developer &amp; Full-Stack Engineer</text>
+
+      <!-- Line 3: DEGREE -->
+      <text x="0" y="52" fill="#64748B" font-weight="600">&gt; DEGREE     </text>
+      <text x="105" y="52" fill="#E2E8F0">B.E. in CSE (Artificial Intelligence) · LJ University</text>
+
+      <!-- Line 4: LOCATION -->
+      <text x="0" y="78" fill="#64748B" font-weight="600">&gt; LOCATION   </text>
+      <text x="105" y="78" fill="#CBD5E1">Ahmedabad, Gujarat, India</text>
+    </g>
+
+    <!-- Thin Divider -->
+    <line x1="488" y1="244" x2="1122" y2="244" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- ================= SECTION 2: VERIFIED TECHNICAL STACK (3 Focused Lines) ================= -->
+    <g class="font-mono text-code" transform="translate(488, 270)">
+      <!-- Line 1: CORE STACK -->
+      <text x="0" y="0" fill="#64748B" font-weight="600">&gt; CORE STACK </text>
+      <text x="105" y="0" fill="#38BDF8" font-weight="700">Python</text>
+      <text x="156" y="0" fill="#94A3B8">·</text>
+      <text x="168" y="0" fill="#F8FAFC">TypeScript</text>
+      <text x="246" y="0" fill="#94A3B8">·</text>
+      <text x="258" y="0" fill="#61DAFB">React 18</text>
+      <text x="320" y="0" fill="#94A3B8">·</text>
+      <text x="332" y="0" fill="#68D391">Node.js</text>
+      <text x="390" y="0" fill="#94A3B8">·</text>
+      <text x="402" y="0" fill="#009688">FastAPI</text>
+      <text x="458" y="0" fill="#94A3B8">·</text>
+      <text x="470" y="0" fill="#2496ED">Docker</text>
+
+      <!-- Line 2: AI / ML & DATA -->
+      <text x="0" y="26" fill="#64748B" font-weight="600">&gt; ML &amp; DATA  </text>
+      <text x="105" y="26" fill="#FBBF24">Scikit-Learn</text>
+      <text x="195" y="26" fill="#94A3B8">·</text>
+      <text x="207" y="26" fill="#F472B6">SHAP (XAI)</text>
+      <text x="286" y="26" fill="#94A3B8">·</text>
+      <text x="298" y="26" fill="#38BDF8">Prophet</text>
+      <text x="356" y="26" fill="#94A3B8">·</text>
+      <text x="368" y="26" fill="#EE4C2C">PyTorch</text>
+      <text x="426" y="26" fill="#94A3B8">·</text>
+      <text x="438" y="26" fill="#818CF8">spaCy</text>
+      <text x="484" y="26" fill="#94A3B8">·</text>
+      <text x="496" y="26" fill="#E2E8F0">Pandas</text>
+
+      <!-- Line 3: DATA STORES -->
+      <text x="0" y="52" fill="#64748B" font-weight="600">&gt; STORAGE    </text>
+      <text x="105" y="52" fill="#60A5FA">PostgreSQL 16</text>
+      <text x="208" y="52" fill="#94A3B8">·</text>
+      <text x="220" y="52" fill="#22D3EE">InfluxDB 2.7</text>
+      <text x="312" y="52" fill="#94A3B8">·</text>
+      <text x="324" y="52" fill="#F87171">Redis 7</text>
+      <text x="378" y="52" fill="#94A3B8">·</text>
+      <text x="390" y="52" fill="#34D399">MongoDB</text>
+      <text x="456" y="52" fill="#94A3B8">·</text>
+      <text x="468" y="52" fill="#E2E8F0">MySQL</text>
+    </g>
+
+    <!-- Thin Divider -->
+    <line x1="488" y1="340" x2="1122" y2="340" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- ================= SECTION 3: VERIFIED FEATURED PROJECTS ================= -->
+    <g class="font-mono text-code" transform="translate(488, 364)">
+      <!-- Line 1: CLOUDOPS -->
+      <text x="0" y="0" fill="#38BDF8" font-weight="700">&gt; FLAGSHIP 01</text>
+      <text x="105" y="0" fill="#F8FAFC" font-weight="700">CloudOps</text>
+      <text x="180" y="0" fill="#94A3B8">― Multi-Cloud Anomaly Detection &amp; FinOps</text>
+
+      <!-- Line 2: ATS RESUME CHECKER -->
+      <text x="0" y="26" fill="#818CF8" font-weight="700">&gt; FLAGSHIP 02</text>
+      <text x="105" y="26" fill="#F8FAFC" font-weight="700">ATS Resume Checker</text>
+      <text x="256" y="26" fill="#94A3B8">― AI Resume Parser, ML Scoring &amp; Claude Bot</text>
+
+      <!-- Line 3: ML REVISION LAB -->
+      <text x="0" y="52" fill="#10B981" font-weight="700">&gt; LAB SUITE  </text>
+      <text x="105" y="52" fill="#F8FAFC" font-weight="700">ML Revision Lab</text>
+      <text x="232" y="52" fill="#94A3B8">― 16 Algorithmic &amp; Mathematical Jupyter Modules</text>
+
+      <!-- Line 4: SUBSCRIPTION & TOUR -->
+      <text x="0" y="78" fill="#F59E0B" font-weight="700">&gt; SYSTEMS    </text>
+      <text x="105" y="78" fill="#F8FAFC" font-weight="700">Subscription BI &amp; TourPlanner</text>
+      <text x="325" y="78" fill="#94A3B8">― PostgreSQL ETL &amp; Java JDBC OOP</text>
+    </g>
+
+    <!-- Thin Divider -->
+    <line x1="488" y1="462" x2="1122" y2="462" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- ================= SECTION 4: EXECUTION SUMMARY & STATUS ================= -->
+    <g class="font-mono" transform="translate(488, 488)">
+      <!-- Console Message -->
+      <text x="0" y="0" fill="#10B981" font-size="11.5px" font-weight="600">[OK]</text>
+      <text x="36" y="0" fill="#E2E8F0" font-size="11.5px">10 public repositories indexed · Factual portfolio verified</text>
+      
+      <!-- Command prompt with blinking cursor -->
+      <text x="0" y="24" fill="#38BDF8" font-size="11px" font-weight="700">shreyshah28:~$</text>
+      <text x="108" y="24" fill="#94A3B8" font-size="11px">./profile.sh --status</text>
+      <rect x="260" y="13" width="7" height="13" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Terminal Footer Status Bar -->
+    <rect x="466" y="534" width="678" height="40" rx="14" fill="#0A1122"/>
+    <rect x="466" y="534" width="678" height="10" fill="#0A1122"/>
+    <line x1="466" y1="534" x2="1144" y2="534" stroke="#1E293B" stroke-width="1"/>
+    
+    <g class="font-mono" font-size="10.5px" transform="translate(488, 558)">
+      <text x="0" y="0" fill="#64748B">STACK:</text>
+      <text x="48" y="0" fill="#94A3B8">FASTAPI + REACT + NODE + POSTGRESQL</text>
+      <text x="370" y="0" fill="#64748B">STATUS:</text>
+      <text x="424" y="0" fill="#10B981" font-weight="700">ACTIVE</text>
+      <text x="500" y="0" fill="#64748B">TIMEZONE:</text>
+      <text x="568" y="0" fill="#94A3B8">IST (UTC+5:30)</text>
+    </g>
+  </g>
+</svg>
